@@ -1,30 +1,131 @@
 <html>
-  <head>
-    <title>Home</title>
-  </head>
-  <body>
-    <div>
-      <h1>Hello World!</h1>
-      <br>
-      <br>
-      <br>
-      <p>This is just a test :)</p>
-    </div>
-    <br>
-    <br>
-    <br>
-    <a href="http://google.com">HERE</a> is a link to Google homepage.
-    <br>
-    <br>
-    <br>
-    <div>
-      <ol>
-        <li>This</li>
-        <li>Is</li>
-        <li>An</li>
-        <li>Ordered</li>
-        <li>List</li>
-      </ol>
-    </div>
-  </body>
+	<head>
+		<title>Egor's Project Page</title>
+		<link rel="stylesheet" type="text/css" href="/style/style.css" media="screen" />
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div id="header">
+			<div id="header_banner">
+				<h1 id="page_title">EGOR'S 2336 PROJECT SITE</h1>
+			</div>
+			<div id="navBar">
+				<nav class="main_menu">
+					<ul class="main_menu_ul">
+						<li class="main_menu_home_button menu_active"><a href="/">HOME</a></li>
+						<li class="divider"></li>
+						<li><a href="#">ABOUT</a></li>
+						<li class="divider"></li>
+						<li>
+							<a href="#">PORTFOLIO</a>
+							<ul class="submenu">
+								<li><a href="/portfolio/htmlcss.html">HTML/CSS</a></li>
+								<li><a href="/portfolio/javascript.html">JAVASCRIPT</a></li>
+								<li><a href="/portfolio/perl.html">PERL</a></li>
+								<li><a href="/portfolio/mysql.html">SQL</a></li>
+							</ul>
+						</li>
+						<li class="divider"></li>
+						<li><a href="/contact.html">CONTACT</a></li>
+						<li class="divider"></li>
+						<li><a href="/links.html">LINKS</a></li>	
+					</ul>
+				</nav>
+				<nav class="main_menu_hamburger">
+					<div id="hamburger_toggle">
+						<ul class="main_menu_hamburger_ul">
+							<li class="ham_menu_toggle"><a href="#"></a>
+								<div class="hamburger_popout">
+									<ul class="main_menu_hamburger_ul_drop">
+										<li class="ham_menu_item menu_active"><a href="/">HOME</a></li>
+										<li class="ham_menu_item"><a href="#">ABOUT</a></li>
+										<li class="ham_menu_item">
+											<a href="#">PORTFOLIO</a>
+											<ul class="submenu">
+												<li><a href="/portfolio/htmlcss.html">HTML/CSS</a></li>
+												<li><a href="/portfolio/javascript.html">JAVASCRIPT</a></li>
+												<li><a href="/portfolio/perl.html">PERL</a></li>
+												<li><a href="/portfolio/mysql.html">SQL</a></li>
+											</ul>
+										</li>
+										<li class="ham_menu_item"><a href="/contact.html">CONTACT</a></li>
+										<li class="ham_menu_item"><a href="/links.html">LINKS</a></li>
+										<li class="ham_menu_item ham_close"><a href="#">X</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div id="wrapper">
+			<div id="mainContent">
+				<div id="page_header">
+					<h2>HOME - Welcome To My Site!</h2>
+				</div>
+				<div id="style_2col_left_panel">
+					<center><img src="https://scontent.fhou1-1.fna.fbcdn.net/v/t1.0-9/17903338_10212443319509007_2590124986815899889_n.jpg?_nc_cat=103&oh=b38b8fe8ef7dde46d9672c3f77bc16f1&oe=5C6003EA" width="90%" style="border: solid; margin-top: 5px;"></img></center>
+					<table style="width:90%; margin-left:5%;">
+						<tr>
+							<td style="text-align:right;">NAME: </td>
+							<td>Egor Shumeyko</td>
+						</tr>
+						<tr>
+							<td style="text-align:right;">CLASS: </td>
+							<td>CIS2336</td>
+						</tr>
+						<tr>
+							<td style="text-align:right;">PROFESSOR: </td>
+							<td>Kamil Khanipov</td>
+						</tr>
+						<tr>
+							<td style="text-align:right;">AGE: </td>
+							<td>25</td>
+						</tr>
+						<tr>
+							<td style="text-align:right;">ORIGIN: </td>
+							<td>Russia</td>
+						</tr>
+						<tr>
+							<td style="text-align:right;">UH LINK: </td>
+							<td><a href="http://uh.edu">Click Me</a></td>
+						</tr>
+						<tr>
+							<td style="text-align:right;">COT LINK: </td>
+							<td><a href="http://www.uh.edu/technology/">Click Me</a></td>
+						</tr>
+					</table>
+					</br>
+					</br>
+				</div>
+				<div id="style_2col_right_panel">
+					<h2>BRIEF SUMMARY</h2>
+					<a href="https://uh.edu"><div id="content_image"><img class="content_image" src="https://houstonalumni.com/wp-content/uploads/2017/01/UH.png" alt="This Image will take you to UH Site" title="LINK TO UH" ></a></img></div>
+					<p>My name is Egor Shumeyko. I was born in Russia, came to the States when I was 14, and lived here ever since.
+					I lived in Florida for a while before moving to Texas. I currently work as a Systems Administrator for a small Oil & Gas company and
+					I like to dabble in all things IT. So far I have experience with WebHosting and Web Design,
+					Windows and Linux server administration and setup, VM machines, WebApps, and so much more...</p>
+					<p>This site is built for a class project. The class is CIS2336 - Internet Application Development taught by Kamil Khanipov.
+						I will use this site to showcase multiple web languages and technologies before the semester is over. This site will also server as a final project.</p>
+					<p>I am deviating from some instructions for the purposes of creating a cleaner look for my Site.  </p>
+					<br>
+					<br>
+					<p>I am going to try and make this site as responsive as possible for mobile viewing. If you find any bugs or have any suggestions, don't hesitate to shoot me an email.</p>
+
+						
+					<h5>NOTE: The button below will only work if you have a default mail client set in your Operating System.</h5>
+					<form action="/contact.html" id="send_mail_1"></form>
+					<center><button class="button1" type="submit" form="send_mail_1" value="SEND ME AN EMAIL">SEND ME AN EMAIL</button></center>
+				</div>
+	
+			</div>
+		</div>
+		<div id="footer">
+			<p><b>DISCLAIMER.</b></p>
+			<p><u><h6>ALL THE CODE WAS WRITTEN FROM SCRATCH. ALL OF THIS IS FOR A SCHOOL PROJECT ONLY. THIS SITE WILL REMAIN UP UNTIL GRADED AND THEN IT WILL BE REMOVED FROM THE WEB</h6></u></p>
+			<p>&copy; 2018 Egor Shumeyko. All rights reserved.</p>
+		</div>
+	</body>
 </html>
